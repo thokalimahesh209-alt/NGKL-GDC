@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Login</title>
+<script>
+function login(){
+var name=document.getElementById("name").value;
+var roll=document.getElementById("roll").value;
+
+if(name=="Mahesh" && roll=="230330384051002"){
+alert("Welcome Mahesh");
+}
+else if(name=="Harita" && roll=="230330384051001"){
+alert("Welcome Harita");
+}
+else{
+alert("Invalid Login");
+}
+}
+</script>
+</head>
+<body>
+<h1>Student Login</h1>
+Name<br>
+<input type="text" id="name"><br><br>
+Roll Number<br>
+<input type="password" id="roll"><br><br>
+<button onclick="login()">Login</button>
+</body>
+</html>
